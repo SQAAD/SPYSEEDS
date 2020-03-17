@@ -1,0 +1,373 @@
+/* U N I V E R S A L  STYLES KAI STUDIOS   */
+
+.existance{
+  display:none;
+}
+
+body,html{
+  background-color:black;
+  background-color:transparent;
+  background-color:black;
+  background-color:transparent;
+  font-family:'Helvetica', courier;
+  font-size:1rem;
+}
+
+html{
+  font-size:18px;
+  /* R E M  Root Element einai to html */
+}
+
+*{
+  margin:0rem;
+}
+
+
+.site-container{
+  /*border:.5rem solid dodgerblue; */
+  max-width:960px;
+  margin:0rem auto;
+
+
+}
+
+
+
+/* H E A D E R  Section Division */
+.kontainer{
+  border:3px solid black;
+
+  width:100%;
+  background-color:black;
+  color:#fff;
+
+  width:100%;
+}
+
+
+.one img{
+  height:1.5rem;
+  width:auto;
+
+  margin-right:1rem;
+  margin-left:.5rem;
+  padding:.66rem 0;
+}
+
+
+
+.one{
+  font-family:courier,bucur, valkanas, vardaks;
+  font-family:'Helvetica', vardaks;
+  display:flex;
+  align-items:center;
+  border:none;
+  font-size:1rem;
+
+}
+
+
+/* MAIN BANNER Section */
+div.main-banner{
+  background-color:red;
+  height:25rem;
+  width:auto;
+  background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+}
+
+
+.two{
+  padding-top:9rem;
+
+}
+
+
+html body .xwros{
+  background-color:black;
+  color:#fff;
+  background-color:black;
+  padding:2rem 3rem;
+  display:inline-block;
+
+}
+
+.xwros  h4{
+  padding-bottom:.25rem;
+}
+
+
+.two{
+  border:none;
+}
+
+
+
+/* Navigation Bara Dhmhtriakwn Section   */
+nav{
+  background-color:firebrick;
+  border:12px solid blue;
+  border:none;
+}
+
+ nav ul{
+
+  list-style:square;
+  list-style:circle;
+  list-style:armenian;
+  list-style:decimal;
+  list-style:none;
+
+
+  display:flex;
+  justify-content:space-between;
+  color:#fff;
+  padding:.75rem 0rem;
+
+  border:none;
+
+
+
+}
+
+
+nav ul li{
+  border:6px solid mediumspringgreen;
+  border:none;
+
+}
+
+
+#white{
+  color:#fff;
+  color:orange;
+  color:black;
+  color:#fff;
+  text-decoration:none;
+}
+
+
+.navigation{
+  border:none;
+}
+
+
+.sameness{
+  border:4px solid black;
+  width:30%;
+  margin:3rem 0;
+  display:flex;
+  flex-direction:column;
+  flex-shrink:1;
+
+
+
+
+
+
+
+
+}
+
+.middle{
+  /* background-color:dodgerblue; */
+
+
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+
+}
+
+.sameness span{
+  background-color:black;
+  color:#fff;
+  text-align:center;
+  display:block;
+  padding:.5rem;
+
+
+
+
+
+}
+
+.sameness img{
+  /*  border:5px solid red; */
+
+  height:auto;
+
+  height:9rem;
+  padding:2rem 0;
+
+}
+
+
+
+
+/* DIAFORETIKO  */
+div.diaforetiko{
+  /*border:6px solid orange; */
+  width:35%;
+  display:flex;
+  flex-flow:column nowrap;
+
+  flex-shrink:1;
+  margin-bottom:4rem;
+}
+
+
+#mauro{
+  background-color:black;
+  color:#fff;
+  padding:1rem 2rem;
+  font-weight:200;
+  letter-spacing:2px;
+  line-height:auto;
+  margin-bottom:.5rem;
+}
+
+
+
+/* F O O T E R */
+footer{
+  background-color:black;
+  color:#fff;
+  height:5rem;
+}
+
+footer .site-container{
+  height:100%;
+  display:flex;
+  align-items:center;
+}
+
+
+
+
+/* MEDIA QUERIES TO TARGET SCREEN SIZE */
+
+/* TARGET SCREEN SIZE LESS THAN 150% */
+@media only screen and (max-width:1000px){
+
+
+  .none{
+    display:none;
+  }
+
+
+  .sameness.glasses{
+    display:none;
+  }
+
+  .sameness{
+    width:47%;
+  }
+
+div.diaforetiko{
+
+    display:flex;
+    flex-shrink:0;
+  /*  border:2px solid black;  */
+    width:35%;
+
+
+  }
+
+
+
+
+
+
+  .existance{
+    display:block;
+    width:100%;
+    text-align:center;
+    width:100%;
+  }
+
+  .navigation{
+
+    display:inline;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:center;
+    align-items:flex-end;
+  }
+
+}
+
+
+
+
+/* MEDIA QUERY TO TARGET SCREEN SIZE LESS THAN 200% */
+@media only screen and (max-width:799px){
+
+
+  .xwros h4{
+    font-size:.77rem;
+  }
+
+  .xwros h1{
+    font-size:1rem;
+  }
+
+  html body .xwros{
+    padding:1rem 2rem;
+  }
+
+  .two{
+  /*  border:2px dotted yellow; */
+    padding-top:10rem;
+  }
+
+  div.main-banner{
+  /*  border:5px solid red; */
+    height:15rem;
+  }
+
+  .watch{
+    display:none;
+  }
+
+  .sameness{
+    width:90%;
+
+  }
+
+  .path{
+  /*  border:10px solid lightgreen; */
+    justify-content:center;
+  }
+
+
+  .middle{
+    justify-content:center;
+  }
+  div.diaforetiko{
+    width:90%;
+  }
+
+  div.mena{
+    margin-bottom:.5rem;
+  }
+
+
+  footer .site-container{
+  /*  border:2px solid orange; */
+    justify-content:center;
+  }
+
+  .existance{
+
+  }
+
+
+  .navigation{
+    margin-top:.04rem;
+  }
+
+
+}
